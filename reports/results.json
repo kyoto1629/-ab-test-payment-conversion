@@ -1,0 +1,44 @@
+{
+  "statistics": {
+    "cr_a": 0.49809014514896865,
+    "cr_b": 0.6439674315321984,
+    "delta": 0.14587728638322972,
+    "se_delta": 0.018896876405580187,
+    "z_stat": 7.719650764088853,
+    "p_value": 1.1664887148255147e-14,
+    "ci_lower": 0.10884008920798785,
+    "ci_upper": 0.1829144835584716,
+    "alpha": 0.05,
+    "relative_uplift": 29.28732636129565,
+    "group_stats": {
+      "A": {
+        "cr": 0.49809014514896865,
+        "variance": 0.00018476525836664254
+      },
+      "B": {
+        "cr": 0.6439674315321984,
+        "variance": 0.00017232667952113068
+      }
+    }
+  },
+  "audit": {
+    "raw_users": 1504,
+    "raw_payments": 2661,
+    "excluded_users": 1,
+    "payments_missing_user_id": 1,
+    "payments_unknown_user": 0,
+    "group_mismatches": 1,
+    "abnormal_age": 2,
+    "missing_city": 1,
+    "duplicate_users": 0,
+    "duplicate_payments": 0,
+    "clean_users": 1503,
+    "clean_payments": 2660,
+    "excluded_payments": 1,
+    "funnel_errors": {
+      "step1_opened -> step2_entered": 0,
+      "step2_entered -> step3_confirmed": 0,
+      "step3_confirmed -> step4_success": 0
+    }
+  }
+}

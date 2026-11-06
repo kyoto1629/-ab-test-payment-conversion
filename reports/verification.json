@@ -1,0 +1,31 @@
+{
+  "baseline": "archive/analysis_original.ipynb, code cells 0-68 executed independently",
+  "dataframe_equality": [
+    "funnel",
+    "step_rates",
+    "user_stats",
+    "device_results",
+    "city_results"
+  ],
+  "scalar_equality": [
+    "cr_a",
+    "cr_b",
+    "delta",
+    "se_delta",
+    "z_stat",
+    "p_value",
+    "relative_uplift"
+  ],
+  "ci_absolute_tolerance": 1e-06,
+  "ci_note": "norm.ppf(0.975) replaces rounded 1.96; displayed values unchanged",
+  "notebooks": "5/5 executed from clean kernels",
+  "unit_tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 10,
+    "failed": 0
+  },
+  "pdf_review": {
+    "pages": 2,
+    "rendered_and_visually_checked": true
+  }
+}
